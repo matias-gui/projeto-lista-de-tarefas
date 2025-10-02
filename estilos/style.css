@@ -4,6 +4,27 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+@keyframes mensagem {
+    0%{
+        transform: rotate(0);
+    }
+    20%{
+        transform: rotate(2deg);
+    }
+    40%{
+        transform: rotate(-2deg);
+    }
+    60%{
+        transform: rotate(2deg);
+    }
+    80%{
+        transform: rotate(-2deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+
+}
 body{
     background-color: rgba(0, 0, 0, 0.655);
     width: 100vw;
@@ -14,6 +35,19 @@ h1{
     background-color: rgba(255, 255, 255, 0.429);
     box-shadow: 2px 2px 5px #00000057;
     padding: 2px;
+}
+.mensagem {
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    width: 200px ;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(244, 9, 9, 0.774);
+    display: none;
 }
 .containe-principal{
     display: flex;
