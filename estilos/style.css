@@ -26,13 +26,13 @@
 
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(201, 194, 194, 0.585);
     width: 100vw;
     height: 100vh;
 }
 h1{
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.586);
+    background-color: rgba(8, 8, 8, 0.11);
     box-shadow: 2px 2px 5px #00000057;
     padding: 2px;
 }
@@ -57,13 +57,13 @@ h1{
     max-width: 750px;
 }
 .containe-tarefas{
-    width: 300px;
+    width: 350px;
     height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(251, 251, 251, 0.311);
+    background-color: #0a0a0a51;
     border-radius: 15px 0;
     box-shadow: 2px 2px 5px #01010147;
     margin: 10px 0;
@@ -94,43 +94,21 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 70%;
 }
 li{
     display: flex;
     width: 70%;
+    justify-content: space-between;
     text-indent: 5px;
     list-style: none;
-    background-color: #ffffff;
-    color: #090808;
+    background-color: #0a0a0a51;
+    color: #070707;
+    box-shadow: 2px 2px 5px #00000057;
     margin: 7px;
     padding: 5px;
     border-radius: 10px;
 
 }
-input{
-    display: flex;
-    width: 70%;
-    text-indent: 5px;
-    list-style: none;
-    background-color: #ffffff;
-    color: #090808;
-    margin: 7px;
-    padding: 5px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-}
-.buttonEdit{
-    padding: 5px ;
-    width: 60px;
-    position: absolute;
-    right: 64px;
-    border-radius: 10px;
-    background-Color: #0b0be8;
-    color: #ffff;
-    display: none;
-}
-
 
 
